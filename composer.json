@@ -1,0 +1,43 @@
+{
+  "name": "sunnysideup/file-search-field",
+  "description": "A form field that allows the user to pick any file from Assets, without having to browse to it in the hierarchy.",
+  "type": "silverstripe-vendormodule",
+  "keywords": [
+    "form",
+    "field",
+    "form field",
+    "search field",
+    "file field",
+    "file",
+    "a cms for real people"
+  ],
+  "license": "BSD-3-Clause",
+  "require": {
+    "silverstripe/framework": "^6.0",
+    "silverstripe/admin": "^3.0"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "Sunnysideup\\FileSearchField\\": "src/"
+    }
+  },
+  "extra": {
+    "expose": [
+      "client/dist"
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "bin": [
+    "bin/sake-npm-build-file-search-field.sh",
+    "bin/sake-npm-watch-file-search-field.sh"
+  ],
+  "authors": [
+    {
+      "name": "Nicolaas Thiemen Francken",
+      "email": "modules@sunnysideup.co.nz",
+      "role": "lead developer"
+    }
+  ]
+}
