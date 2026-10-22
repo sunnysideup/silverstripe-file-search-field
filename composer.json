@@ -36,5 +36,8 @@
       "email": "modules@sunnysideup.co.nz",
       "role": "lead developer"
     }
-  ]
+  ],
+  "suggest": {
+    "gorriecoe/silverstripe-link": "An extension has been added for this module."
+  }
 }
